@@ -1,0 +1,28 @@
+.todo-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  max-width: 600px;
+  max-height: 500px;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+span {
+  text-align: center;
+  width: 80px;
+}
